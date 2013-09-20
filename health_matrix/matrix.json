@@ -1,0 +1,28 @@
+{
+  "nodes":[
+    {"name":"Fever","group":1},
+    {"name":"Musc Weakness","group":2},
+    {"name":"Diarrhea","group":3},
+    {"name":"Diff Breathing","group":4},
+    {"name":"Headache","group":5},
+    {"name":"Chills","group":6},
+    {"name":"Vomit","group":7},
+    {"name":"Cough","group":8},
+    {"name":"Malaria","group":9},
+    {"name":"HIV","group":10},
+    {"name":"TB","group":11}
+  ],
+  "links":[
+    {"source":0,"target":1,"value":3},
+    {"source":0,"target":2,"value":1},
+    {"source":1,"target":2,"value":1},
+    {"source":1,"target":3,"value":4},
+    {"source":1,"target":4,"value":1},
+    {"source":5,"target":6,"value":1},
+    {"source":1,"target":9,"value":3},
+    {"source":3,"target":9,"value":2},
+    {"source":3,"target":9,"value":1},
+
+    {"source":1,"target":2,"value":1}
+  ]
+}
